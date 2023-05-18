@@ -21,26 +21,11 @@ import {
 import { phaseParameters } from "@/lib";
 // import { Scatter } from "react-chartjs-2";
 // import { RangeDatepicker } from "chakra-dayzed-datepicker";
-import bfc from "./bfc.jpg";
-import jump from "./jump.jpg";
+
 // import { phaseParameters } from "@/lib";
 import { Line, Scatter } from "react-chartjs-2";
 import { RangeDatepicker } from "chakra-dayzed-datepicker";
-// import jump_stridespeed from "../images/jump/stridespeed.png";
-import jump_fb from "../images/jump/fb.png";
-import jump_gct from "../images/jump/gct.png";
-import jump_jt from "../images/jump/jt.png";
-import runUp_maxSpeed from "../images/runup/MAX SPEED.png";
-import runUp_lastStrideSpeed from "../images/runup/LAST STRIDE SPEED.png";
-import runUp_gct from "../images/runup/GCT.png";
-import bfc_bkc from "../images/backfootcontact/bkc.png";
-import bfc_fb from "../images/backfootcontact/fb.png";
-import bfc_fta from "../images/backfootcontact/fta.png";
-import bfc_gct from "../images/backfootcontact/gct.png";
-import bfc_hss from "../images/backfootcontact/hss.png";
-import bfc_lap from "../images/backfootcontact/lap.png";
-import bfc_shin_lead from "../images/backfootcontact/shin lead.png";
-import bfc_stridespeed from "../images/backfootcontact/stride speed.png";
+
 
 type Props = {
   data?: {
@@ -520,10 +505,10 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {person}
 
          {/* jump foot contact and stride speed================================================================================== */}
-         {/* {phase === "jump" && parameter === "strideSpeed" && (
+         {phase === "jump" && parameter === "strideSpeed" && (
           <div>
             <Image
-              src={`${jump_stridespeed.src}`}
+              src='/images/jump/stride speed.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -539,14 +524,14 @@ export function BallSpeedTrendsScatter({ data }: Props) {
               greater than 5 meters/sec.
             </h3>
           </div>
-        )} */}
+        )}
         {/* jump contact and stride speed================================================================================*/}
 
         {/* jump and forward bend================================================================================== */}
         {phase === "jump" && parameter === "forwardBend" && (
           <div>
             <Image
-              src={`${jump_fb.src}`}
+              src= '/images/jump/fb.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -568,7 +553,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "jump" && parameter === "groundContactTime" && (
           <div>
             <Image
-              src={`${jump_gct.src}`}
+              src='/images/jump/gct.png'
               alt="gct"
               width="600px"
               height="200px"
@@ -592,7 +577,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "jump" && parameter === "jumpTime" && (
           <div>
             <Image
-              src={`${jump_jt.src}`}
+              src='/images/jump/jt.png'
               alt="gct"
               width="600px"
               height="200px"
@@ -616,7 +601,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "runUp" && parameter === "maximumRunUpSpeed" && (
           <div>
             <Image
-              src={`${runUp_maxSpeed.src}`}
+              src='/images/runup/maxrunspeed.png'
               alt="gct"
               width="600px"
               height="200px"
@@ -639,7 +624,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "runUp" && parameter === "strideSpeedAtLastStep" && (
           <div>
             <Image
-              src={`${runUp_lastStrideSpeed.src}`}
+              src='/images/runup/lastspeed.png'
               alt="gct"
               width="600px"
               height="200px"
@@ -662,7 +647,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "backFootContact" && parameter === "strideSpeed" && (
           <div>
             <Image
-              src={`${bfc_stridespeed.src}`}
+              src='/images/backfootcontact/stride speed.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -684,7 +669,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "backFootContact" && parameter === "groundContactTime" && (
           <div>
             <Image
-              src={`${bfc_gct.src}`}
+              src='/images/backfootcontact/gct.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -707,7 +692,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
           parameter === "hipShoulderSeparation" && (
             <div>
               <Image
-                src={`${bfc_hss.src}`}
+                src='/images/backfootcontact/hss.png'
                 alt="jump"
                 width="600px"
                 height="200px"
@@ -730,7 +715,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "backFootContact" && parameter === "forwardBend" && (
           <div>
             <Image
-              src={`${bfc_fb.src}`}
+              src='/images/backfootcontact/fb.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -752,7 +737,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "backFootContact" && parameter === "leadingArmPosition" && (
           <div>
             <Image
-              src={`${bfc_lap.src}`}
+              src='/images/backfootcontact/lap.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -775,7 +760,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
           parameter === "backfootLandingDirection" && (
             <div>
               <Image
-                src={`${bfc_lap.src}`}
+                src='/images/backfootcontact/lap.png'
                 alt="jump"
                 width="600px"
                 height="200px"
@@ -798,7 +783,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "backFootContact" && parameter === "frontThighAngle" && (
           <div>
             <Image
-              src={`${bfc_fta.src}`}
+              src='/images/backfootcontact/fta.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -820,7 +805,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "backFootContact" && parameter === "backFootKneeAngle" && (
           <div>
             <Image
-              src={`${bfc_bkc.src}`}
+              src='/images/backfootcontact/bkc.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -842,7 +827,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "backFootContact" && parameter === "shinLeadAngle" && (
           <div>
             <Image
-              src={`${bfc_shin_lead.src}`}
+              src='/images/backfootcontact/shin lead.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -865,7 +850,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
           parameter === "centreOfMassPosition" && (
             <div>
               <Image
-                src={`${bfc_fb.src}`}
+                src='/images/backfootcontact/fb.png'
                 alt="jump"
                 width="600px"
                 height="200px"
@@ -889,7 +874,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
           parameter === "backFootKneeAngleDuringFlight" && (
             <div>
               <Image
-                src={`${bfc_bkc.src}`}
+                src='/images/backfootcontact/bkc.png'
                 alt="jump"
                 width="600px"
                 height="200px"
@@ -913,7 +898,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
           parameter === "backFootKneeCollapse" && (
             <div>
               <Image
-                src={`${bfc_bkc.src}`}
+                src='/images/backfootcontact/bkc.png'
                 alt="jump"
                 width="600px"
                 height="200px"
