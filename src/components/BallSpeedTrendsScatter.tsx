@@ -508,7 +508,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
          {phase === "jump" && parameter === "strideSpeed" && (
           <div>
             <Image
-              src='/images/jump/stride speed.png'
+              src='/images/jump/stride%20speed.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -531,7 +531,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "jump" && parameter === "forwardBend" && (
           <div>
             <Image
-              src= '/images/jump/fb.png'
+              src= '/images/gct_runup.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -601,7 +601,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "runUp" && parameter === "maximumRunUpSpeed" && (
           <div>
             <Image
-              src='/images/runup/maxrunspeed.png'
+              src='/images/backfootcontact/stride speed.png'
               alt="gct"
               width="600px"
               height="200px"
@@ -624,7 +624,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "runUp" && parameter === "strideSpeedAtLastStep" && (
           <div>
             <Image
-              src='/images/runup/lastspeed.png'
+              src='/images/backfootcontact/stride speed.png'
               alt="gct"
               width="600px"
               height="200px"
