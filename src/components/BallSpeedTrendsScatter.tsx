@@ -26,12 +26,12 @@ import jump from "./jump.jpg";
 // import { phaseParameters } from "@/lib";
 import { Line, Scatter } from "react-chartjs-2";
 import { RangeDatepicker } from "chakra-dayzed-datepicker";
-import jump_stridespeed from "../images/jump/stridespeed.png";
+// import jump_stridespeed from "../images/jump/stridespeed.png";
 import jump_fb from "../images/jump/fb.png";
-import jump_gct from "../images/gct.png";
-import jump_jt from "../images/jt.png";
+import jump_gct from "../images/jump/gct.png";
+import jump_jt from "../images/jump/jt.png";
 import runUp_maxSpeed from "../images/runup/MAX SPEED.png";
-import runUp_lastStrideSpeed from ".../images/runup/LAST STRIDE SPEED.png";
+import runUp_lastStrideSpeed from "../images/runup/LAST STRIDE SPEED.png";
 import runUp_gct from "../images/runup/GCT.png";
 import bfc_bkc from "../images/backfootcontact/bkc.png";
 import bfc_fb from "../images/backfootcontact/fb.png";
@@ -520,7 +520,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {person}
 
          {/* jump foot contact and stride speed================================================================================== */}
-         {phase === "jump" && parameter === "strideSpeed" && (
+         {/* {phase === "jump" && parameter === "strideSpeed" && (
           <div>
             <Image
               src={`${jump_stridespeed.src}`}
@@ -539,7 +539,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
               greater than 5 meters/sec.
             </h3>
           </div>
-        )}
+        )} */}
         {/* jump contact and stride speed================================================================================*/}
 
         {/* jump and forward bend================================================================================== */}
@@ -636,7 +636,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {/* Runup and max speed================================================================================== */}
 
         {/* Runup and last stride speed================================================================================== */}
-        {phase === "runUp" && parameter === "strideSpeedAtLastStep" && (
+        {/* {phase === "runUp" && parameter === "strideSpeedAtLastStep" && (
           <div>
             <Image
               src={`${runUp_lastStrideSpeed.src}`}
@@ -655,7 +655,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
               the steps in the run-up and should be at least 6 meters/sec
             </h3>
           </div>
-        )}
+        )} */}
         {/* Runup and last stride speed================================================================================== */}
 
         {/* backfootcontact and strideSpeed================================================================================== */}
