@@ -26,21 +26,21 @@ import jump from "./jump.jpg";
 // import { phaseParameters } from "@/lib";
 import { Line, Scatter } from "react-chartjs-2";
 import { RangeDatepicker } from "chakra-dayzed-datepicker";
-import jump_stridespeed from "./jump/stride speed.png";
-import jump_fb from "./jump/fb.png";
-import jump_gct from "./jump/gct.png";
-import jump_jt from "./jump/jt.png";
-import runUp_maxSpeed from "./RUN UP/MAX SPEED.png";
-import runUp_lastStrideSpeed from "./RUN UP/LAST STRIDE SPEED.png";
-import runUp_gct from "./RUN UP/GCT.png";
-import bfc_bkc from "./backfootcontact/bkc.png";
-import bfc_fb from "./backfootcontact/fb.png";
-import bfc_fta from "./backfootcontact/fta.png";
-import bfc_gct from "./backfootcontact/gct.png";
-import bfc_hss from "./backfootcontact/hss.png";
-import bfc_lap from "./backfootcontact/lap.png";
-import bfc_shin_lead from "./backfootcontact/shin lead.png";
-import bfc_stridespeed from "./backfootcontact/stride speed.png";
+import jump_stridespeed from "../images/jump/stridespeed.png";
+import jump_fb from "../images/jump/fb.png";
+import jump_gct from "../images/gct.png";
+import jump_jt from "../images/jt.png";
+import runUp_maxSpeed from "../images/runup/MAX SPEED.png";
+import runUp_lastStrideSpeed from ".../images/runup/LAST STRIDE SPEED.png";
+import runUp_gct from "../images/runup/GCT.png";
+import bfc_bkc from "../images/backfootcontact/bkc.png";
+import bfc_fb from "../images/backfootcontact/fb.png";
+import bfc_fta from "../images/backfootcontact/fta.png";
+import bfc_gct from "../images/backfootcontact/gct.png";
+import bfc_hss from "../images/backfootcontact/hss.png";
+import bfc_lap from "../images/backfootcontact/lap.png";
+import bfc_shin_lead from "../images/backfootcontact/shin lead.png";
+import bfc_stridespeed from "../images/backfootcontact/stride speed.png";
 
 type Props = {
   data?: {
