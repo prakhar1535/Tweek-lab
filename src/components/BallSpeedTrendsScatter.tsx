@@ -531,7 +531,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "jump" && parameter === "forwardBend" && (
           <div>
             <Image
-              src= '/assets/gct_runup.png'
+              src= '/assets/backfootcontact/fb.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -601,7 +601,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "runUp" && parameter === "maximumRunUpSpeed" && (
           <div>
             <Image
-              src='/assets/maxrunspeed_runup.png'
+              src='/assets/backfootcontact/maxrunspeed_runup.png'
               alt="gct"
               width="600px"
               height="200px"
