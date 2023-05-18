@@ -1,0 +1,41 @@
+{
+  "name": "tweek-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@faker-js/faker": "^7.6.0",
+    "@tanstack/react-table": "^8.8.5",
+    "@types/faker": "^6.6.9",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "capitalize": "^2.0.4",
+    "chakra-dayzed-datepicker": "^0.2.7",
+    "chart.js": "^4.2.1",
+    "date-fns": "^2.29.3",
+    "dayzed": "^3.2.3",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.3.0",
+    "faker": "^6.6.6",
+    "framer-motion": "^10.11.2",
+    "next": "^13.3.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^4.11.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/capitalize": "^2.0.0"
+  }
+}
