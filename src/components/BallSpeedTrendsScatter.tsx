@@ -508,7 +508,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
          {phase === "jump" && parameter === "strideSpeed" && (
           <div>
             <Image
-              src='/images/jump/stride%20speed.png'
+              src='/images/jump/stride speed.png'
               alt="jump"
               width="600px"
               height="200px"
@@ -601,7 +601,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {phase === "runUp" && parameter === "maximumRunUpSpeed" && (
           <div>
             <Image
-              src='/images/backfootcontact/stride speed.png'
+              src='/images/maxrunspeed_runup.png'
               alt="gct"
               width="600px"
               height="200px"
