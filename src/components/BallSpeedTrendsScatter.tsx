@@ -636,7 +636,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
         {/* Runup and max speed================================================================================== */}
 
         {/* Runup and last stride speed================================================================================== */}
-        {/* {phase === "runUp" && parameter === "strideSpeedAtLastStep" && (
+        {phase === "runUp" && parameter === "strideSpeedAtLastStep" && (
           <div>
             <Image
               src={`${runUp_lastStrideSpeed.src}`}
@@ -655,7 +655,7 @@ export function BallSpeedTrendsScatter({ data }: Props) {
               the steps in the run-up and should be at least 6 meters/sec
             </h3>
           </div>
-        )} */}
+        )}
         {/* Runup and last stride speed================================================================================== */}
 
         {/* backfootcontact and strideSpeed================================================================================== */}
